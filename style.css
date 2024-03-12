@@ -1,0 +1,74 @@
+html,body{
+	height: 99%;
+	width: 99%;
+}
+*{
+	box-sizing: border-box;
+}
+ul{
+  font-size: 30px;
+  color: black;
+}
+.banner{
+	background-image: url("Banner.png");
+	margin: 15px;
+	padding: 10px;
+	border: 3px solid #ff94cd;
+	box-shadow: 1px 3px 30px 1px #da9de2;
+	text-transform: capitalize;
+	text-shadow: 1px 1px #fafcfc;
+	font-family: fantasy;
+	height: 120px;
+	text-align: right;
+	font-style: oblique;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+	font-size: 0.7em;
+}
+
+#logo{
+	width: 75px;
+	position: absolute;
+	top: 50px;
+	right: 150px;
+}
+.container{
+	border:2px #000000 dotted;
+	position: relative;
+	top: 2px;
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	overflow: hidden;
+	background-image: url("container.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wave{
+	border: #ffffff 1px solid;
+	color: #ededed;
+	text-align: center;
+	background-color: rgba(250, 175, 239);
+	font-size: 0.9em;
+	height: 25px;
+	overflow: hidden;
+	width: 80%;
+	position:relative;
+	left: 10%;
+	transition: height 4s;
+	display:block;
+}
+#l1{
+	border:#f4579b 1px solid;
+	background-image:repeating-linear-gradient(#d297e7, #e59ac2);
+}
+
+.wave:hover{
+	height:90%;
+	top:1px;
+	z-index:1;
+}
